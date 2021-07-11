@@ -1,0 +1,285 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: SF Pro Text, PingFang TC;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 37px;
+  margin-bottom: 48px;
+}
+
+.header h1 {
+  border-bottom: 2px solid black;
+  font: normal normal normal 80px/106px Roboto;
+  margin-bottom: 48px;
+}
+
+.photo {
+  height: 324px;
+  background: transparent url('../img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+}
+
+.profile {
+  margin-bottom: 72px;
+}
+
+.profile .title {
+  display: flex;
+  align-items: center;
+}
+
+.profile h2 {
+  font: normal normal normal 32px/43px Noto Sans;
+}
+
+.profile span {
+  font: normal normal 600 24px/32px Roboto;
+  color: #A00404;
+  padding-left: 16px;
+}
+
+.profile .content {
+  border-top: 1px solid black;
+  font: normal normal normal 24px/36px Noto Sans;
+  padding-top: 16px;
+}
+
+.profile .content h3~h3 {
+  padding-top: 24px;
+}
+
+.education {
+  margin-bottom: 72px;
+}
+
+.education .title {
+  display: flex;
+  align-items: center;
+}
+
+.education h2 {
+  font: normal normal normal 32px/43px Noto Sans;
+}
+
+.education span {
+  font: normal normal 600 24px/32px Roboto;
+  color: #A00404;
+  padding-left: 16px;
+}
+
+.education .content {
+  border-top: 1px solid black;
+  padding-top: 16px;
+}
+
+.education h3 {
+  font: normal normal normal 24px/36px Noto Sans;
+}
+
+.education h3~h3 {
+  padding-top: 24px;
+}
+
+.bgblue {
+  background: #415165;
+  color: #fff;
+}
+
+.skills {
+  padding-bottom: 36px;
+  margin-bottom: 72px;
+}
+
+.skills .container {
+  max-width: 996px;
+}
+
+.skills .title {
+  border-bottom: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 37px;
+}
+
+.skills h2 {
+  font: normal normal 600 32px/45px PingFang TC;
+}
+
+.skills .title span {
+  font: normal normal 600 24px/32px Roboto;
+  padding-left: 16px;
+}
+
+.skills .content {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-bottom: 52px;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.skills .content h3 {
+  font: normal normal 300 24px/36px Roboto;
+}
+
+.skills .content h3 span {
+  font: normal normal 300 24px/36px PingFang TC;
+}
+
+.skills .content h3~h3 {
+  padding-top: 12px;
+}
+
+.work {
+  margin-bottom: 72px;
+}
+
+.work .title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 16px;
+}
+
+.work h2 {
+  font: normal normal normal 32px/43px Noto Sans;
+}
+
+.work .title span {
+  font: normal normal 600 24px/32px Roboto;
+  color: #A00404;
+  padding-left: 16px;
+}
+
+.work .content h3 {
+  font: normal normal normal 24px/36px Noto Sans;
+}
+
+.work .content p {
+  font: normal normal normal 20px/30px Noto Sans;
+}
+
+.work .content {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+
+.work .content img {
+  padding: 8px 0;
+}
+
+.work .content h3~h3 {
+  padding-top: 24px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.footer .container .title {
+  border-bottom: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.footer .title h2 {
+  font: normal normal normal 32px/43px Noto Sans;
+}
+
+.footer .title span {
+  font: normal normal 600 24px/32px Roboto;
+  padding-left: 16px;
+}
+
+.footer .content h3 {
+  font: normal normal 300 24px/36px Roboto;
+}
+
+.footer .content h3:nth-child(1) {
+  padding-bottom: 16px;
+}
+
+.footer .content h3:nth-child(2) {
+  padding-bottom: 13px;
+}
+
+.footer .content h3:nth-child(3) {
+  padding-bottom: 15px;
+}
+
+.footer .content h3:nth-child(4) {
+  padding-bottom: 16px;
+}
+
+.footer .content .icon {
+  width: 192px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer .content .icon a {
+  display: block;
+}
